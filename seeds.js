@@ -54,23 +54,23 @@ function seedDB(){
                         console.log(err)
                     } else {
                         console.log("added a campground");
-                        //create a comment
-                        Comment.create(
-                            {
-                                text: "This place is great, but I wish there was internet",
-                                author:{
-                                    id : "588c2e092403d111454fff76",
-                                    username: "Jack"
-                                }
-                            }, function(err, comment){
-                                if(err){
-                                    console.log(err);
-                                } else {
-                                    campground.comments.push(comment);
-                                    campground.save();
-                                    console.log("Created new comment");
-                                }
-                            });
+//                         //create a comment
+//                         Comment.create(
+//                             {
+//                                 text: "This place is great, but I wish there was internet",
+//                                 author:{
+//                                     id : "588c2e092403d111454fff76",
+//                                     username: "Jack"
+//                                 }
+//                             }, function(err, comment){
+//                                 if(err){
+//                                     console.log(err);
+//                                 } else {
+//                                     campground.comments.push(comment);
+//                                     campground.save();
+//                                     console.log("Created new comment");
+//                                 }
+//                             });
                     }
                 });
             });
