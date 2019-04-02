@@ -1,0 +1,74 @@
+.jumbotron {
+    margin-top: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#add-newCampground {
+    margin-top: 2rem;
+}
+
+.list-group {
+    margin: 2rem;
+}
+
+.lead {
+    margin-left:5rem;
+    text-align: center;
+}
+
+.img-thumbnail img{
+    width: 100%;
+}
+
+.img-thumbnail {
+    padding: 10px;
+    margin: 15px;
+}
+
+.img-thumbnail .caption-full {
+    padding-top:10px;
+}
+
+#campground-info {
+    padding:10px;
+}
+
+.delete-form {
+    display: inline;
+    margin-left: 10px;
+}
+
+a {
+   color: #5584d9;
+}
+
+
+.float-right {
+    padding-left: 20px;
+}
+
+.header-a {
+    display: inline;
+}
+
+#header-span {
+    color:#5584d9;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#header-signup {
+    border:2px solid;
+    padding:4px;
+}
